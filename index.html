@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/milligram.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/ityped@1.0.3"></script>
+    <title>坂道RPGパーティジェネレータ</title>
+</head>
+<body>
+    <div class="container full-sreen">
+        <div class="header">坂道ＲＰＧ</div>
+        <div class="header">パーティジェネレータ</div>
+        <div class="messagearea">><span id="message" class="ityped"></span></div>
+        <div class="row">
+            <div class="column">
+                <div class="column"><img src="images/nogizaka.png" /></div>
+                <div class="column"><img src="images/baretta.gif" /></div>
+                <div class="column"><a class="button" href="#">乃木坂46</a></div>
+            </div>
+            <hr>
+            <div class="column">
+                <div class="column"><img src="images/keyakizaka.png" /></div>
+                <div class="column"><img src="images/silentmajority.gif" /></div>
+                <div class="column"><a class="button button-green" href="#">欅坂46</a></div>
+            </div>
+            <hr>
+            <div class="column">
+                <div class="column"><img src="images/keyakizaka.png" /></div>
+                <div class="column"><img src="images/hiraganakeyaki.gif" /></div>
+                <div class="column"><a class="button button-green" href="#">けやき坂46</a></div>
+            </div>
+        </div>
+        <footer>
+            <a href="mailto:sakagene46@gmail.com" class="fa fa-envelope"></a>
+            <a href="https://twitter.com/sakagene46" class="fa fa-twitter" target="_blank"></a>
+        </footer>
+    </div>
+    <script>
+        ityped.init(document.querySelector('#message'), {
+            strings: [
+                'あなたが勇者となって坂道グループメンバーとパーティを組んで旅に出る…。',
+                'はたして、どんなパーティとなるのか？',
+                '推しメンとパーティを組めるのか！？',
+                '一緒に旅に出たい坂道グループを選んでください。'],
+            typeSpeed: 150,
+            backSpeed: 0,
+            loop: false,
+            disableBackTyping: true,
+            cursorChar: ""
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'PixelMplus10';
+    src: url("../font/PixelMplus10-Regular.ttf"),
+         url("../font/PixelMplus10-Regular.eot"),
+         url("../font/PixelMplus10-Regular.woff"),
+         url("../font/PixelMplus10-Regular.woff2");
+}
+html {
+    font-size: 10px;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: 'PixelMplus10' !important;
+}
+.container {
+    padding-top: 5rem;
+    max-width: 80rem;
+}
+.header {
+    color: white;
+    font-size: 1.8em;
+    text-align: center;
+} 
+.button-green {
+    background-color: green;
+    border-color: green;
+}
+.row .column {
+    text-align: center;
+}
+footer {
+    padding-top: 20px;
+    text-align: center;
+}
+.messagearea {
+    margin: 20px;
+}
+
+/** スマホ以上の場合 **/
+@media (min-width: 40.0rem) {
+    body {
+        height: 100%; 
+        overflow: hidden;
+    }
+    .container {
+        padding-top: 10rem;
+        max-width: 80rem;
+    }
+    .header {
+        color: white;
+        font-size: 3em;
+        text-align: center;
+    }
+}
