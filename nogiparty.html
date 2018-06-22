@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/milligram.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://unpkg.com/ityped@1.0.3"></script>
-    <title>坂道RPGパーティジェネレータ</title>
+    <title>坂道RPGパーティジェネレータ -乃木坂46-</title>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -24,26 +24,21 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <div class="container full-sreen">
-        <div class="header">坂道ＲＰＧ</div>
+        <div class="header">乃木坂４６</div>
         <div class="header">パーティジェネレータ</div>
         <div class="messagearea">><span id="message" class="ityped"></span></div>
         <div class="row">
             <div class="column">
                 <div class="column"><img src="images/nogizaka.png" /></div>
                 <div class="column"><img src="images/baretta.gif" /></div>
-                <div class="column"><a class="button" href="nogiparty.html">乃木坂46</a></div>
-            </div>
-            <hr>
-            <div class="column">
-                <div class="column"><img src="images/keyakizaka.png" /></div>
-                <div class="column"><img src="images/silentmajority.gif" /></div>
-                <div class="column"><a class="button button-green" href="#">欅坂46</a></div>
-            </div>
-            <hr>
-            <div class="column">
-                <div class="column"><img src="images/keyakizaka.png" /></div>
-                <div class="column"><img src="images/hiraganakeyaki.gif" /></div>
-                <div class="column"><a class="button button-green" href="#">けやき坂46</a></div>
+                <div class="column form">
+                <form>
+                    <fieldset>
+                        <input type="text" placeholder="あなたのおなまえ" id="nameField">
+                        <input class="button-primary" type="submit" value="パーティを組む">
+                    </fieldset>
+                </form>
+                </div>
             </div>
         </div>
         <footer>
@@ -54,10 +49,8 @@
     <script>
         ityped.init(document.querySelector('#message'), {
             strings: [
-                'あなたが勇者となって坂道グループメンバーとパーティを組んで旅に出る…。',
-                'はたして、どんなパーティとなるのか？',
-                '推しメンとパーティを組めるのか！？',
-                '一緒に旅に出たい坂道グループを選んでください。'],
+                'あなたが勇者となって乃木坂46メンバーとパーティを組んで旅に出る…。',
+                '1期生,2期生,3期生…そして伝説の卒業生たちも…'],
             typeSpeed: 150,
             backSpeed: 0,
             loop: false,
