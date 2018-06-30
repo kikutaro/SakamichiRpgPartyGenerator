@@ -46,6 +46,10 @@ form input[type='text'] {
     background-color: white;
 }
 
+.ad {
+    text-align: center;
+}
+
 /** スマホ以上の場合 **/
 @media (min-width: 40.0rem) {
     body {
