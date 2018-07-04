@@ -50,6 +50,13 @@ form input[type='text'] {
     text-align: center;
 }
 
+.announce {
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 /** スマホ以上の場合 **/
 @media (min-width: 40.0rem) {
     body {
