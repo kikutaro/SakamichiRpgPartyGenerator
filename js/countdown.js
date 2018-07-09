@@ -1,4 +1,4 @@
-var countDownDate = new Date("July 8, 2018 17:00:00").getTime();
+var countDownDate = new Date("July 20, 2018 17:00:00").getTime();
 
 var x = setInterval(function() {
 
@@ -9,7 +9,7 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("countdown").innerHTML = "乃木坂46 6th YEAR BIRTHDAY LIVE day3まで<br>" + days + "日 " + hours + "時間 "
+  document.getElementById("countdown").innerHTML = "欅共和国2018まで<br>" + days + "日 " + hours + "時間 "
   + minutes + "分 " + seconds + "秒 ";
 
   // If the count down is finished, write some text 
