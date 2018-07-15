@@ -22,8 +22,11 @@ body {
     text-align: center;
 } 
 .button-green {
-    background-color: green;
-    border-color: green;
+    background-color: green !important;
+    border-color: green !important;
+}
+.font-green {
+    color: green !important;!
 }
 .row .column {
     text-align: center;
