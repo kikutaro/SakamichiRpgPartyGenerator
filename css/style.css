@@ -25,8 +25,11 @@ body {
     background-color: green !important;
     border-color: green !important;
 }
+.font-white {
+    color: white !important;
+}
 .font-green {
-    color: green !important;!
+    color: green !important;
 }
 .row .column {
     text-align: center;
