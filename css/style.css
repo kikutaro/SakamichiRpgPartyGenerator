@@ -65,10 +65,6 @@ form input[type='text'] {
 
 /** スマホ以上の場合 **/
 @media (min-width: 40.0rem) {
-    body {
-        height: 100%; 
-        overflow: hidden;
-    }
     .container {
         padding-top: 10rem;
         max-width: 80rem;
