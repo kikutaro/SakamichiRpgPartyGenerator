@@ -25,11 +25,18 @@ body {
     background-color: green !important;
     border-color: green !important;
 }
+.button-sky {
+    background-color: #7cc8e9 !important;
+    border-color: #7cc8e9 !important;
+}
 .font-white {
     color: white !important;
 }
 .font-green {
     color: green !important;
+}
+.font-sky {
+    color: #7cc8e9 !important;
 }
 .row .column {
     text-align: center;
